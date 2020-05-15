@@ -1,6 +1,6 @@
-# sBider
+# Vue+ElementUI+axios配置模板
 
-> sBider Project
+> Vue+ElementUI+axios配置模板
 
 ## Build Setup
 
