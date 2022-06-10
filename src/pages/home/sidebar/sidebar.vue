@@ -12,6 +12,7 @@
       text-color="#bfcbd9"
       active-text-color="#20a0ff"
       router
+      :default-active="onRoutes"
     >
       <template v-for="item in menuList">
         <template v-if="item.subs">
@@ -53,6 +54,11 @@ export default {
       isCollapse: true,
       menuList
     };
+  },
+   computed:{
+    onRoutes() {
+       return this.$route.path.replace('/','');
+    }
   },
   created() {
     bus.$on("collapse", msg => {
