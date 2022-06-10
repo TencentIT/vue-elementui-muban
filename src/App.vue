@@ -1,6 +1,5 @@
 <template>
-  <div id="app">
-    <link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/material-design-icons/3.0.1/iconfont/material-icons.css"/>    
+  <div id="app">  
     <router-view />
   </div>
 </template>
